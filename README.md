@@ -27,3 +27,23 @@ A responsive and dynamic food delivery web application with a dedicated admin pa
 - **File Uploads**: (e.g., Cloudinary or local file system)
 - **Deployment**: Vercel (Frontend), Render (Backend)
 
+- ## Module
+# For fronted -
+react
+react-dom
+react-router-dom
+axios
+tailwindcss
+
+# for backend -
+express
+mongoose
+cors
+dotenv
+multer
+cloudinary
+body-parser
+nodemon (for development)
+
+
+
