@@ -1,0 +1,102 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    background: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+/* Logo section */
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max(10%, 80px);
+}
+
+.navbar .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar .logo h1 {
+    font-size: 1.2rem;
+    margin: 0;
+    white-space: nowrap;
+}
+
+/* Search bar */
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar .search-bar input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.navbar .search-bar button {
+    padding: 8px 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Profile section - THIS IS WHAT YOU NEED TO FIX */
+.navbar .profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.navbar .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Makes image circular */
+    object-fit: cover; /* Ensures image fills container */
+}
+
+.navbar .profile span {
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+#visual-toggle-button{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* checkbox */
+#visual-toggle{
+    appearance: none;
+    display: none;
+}
+
+.svgIcon-toggle{
+    width: 25px;
+}
+
+.moon-svg{
+    width: 13px;
+    position: absolute;
+    transition: all .3s;
+}
+.sun-svg{
+    opacity: 0;
+    transition: all .3s;
+}
+
