@@ -4,7 +4,7 @@ import './Home.css'
 import ExploreMenu from '../../component/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../component/FoodDisplay/FoodDisplay'
 import { useState } from 'react'
-import AppDownload from '../../component/AppDownload/Appdownload'
+import AppDownload from '../../component/AppDownload/AppDownload'
 function Home() {
 
   const [category, setCategory] = useState("All")
