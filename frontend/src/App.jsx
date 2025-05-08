@@ -8,7 +8,7 @@ import { useState } from "react";
 import Footer from "./component/Footer/Footer"; 
 import LoginPopup from "./component/LoginPopup/LoginPopup";
 import Verify from "./pages/Verify/Verify";
-import MyOrders from "./pages/MyOrders/Myorders";
+import MyOrders from "./pages/MyOrders/MyOrders";
 
 const App = () => {
   const [showLogin,setShowLogin] = useState(false);
