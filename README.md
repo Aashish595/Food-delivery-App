@@ -1,6 +1,8 @@
 # Food-delivery-App
 A responsive food delivery web app with admin panel to manage food items, upload images, and handle customer orders. Built with modern web technologies.
 
+Live link = https://food-delivery-frontend-tsqv.onrender.com/
+
 # 🍽️ Food Delivery Web Application
 
 A responsive and dynamic food delivery web application with a dedicated admin panel for managing food items, uploading images, and tracking customer orders in real-time. This project aims to streamline the food ordering experience for customers and restaurant administrators alike.
