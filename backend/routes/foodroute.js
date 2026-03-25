@@ -20,6 +20,4 @@ foodRouter.get("/list",listFood)
 foodRouter.post("/remove",removeFood);
 foodRouter.put("/edit", editFood); 
 
-
-
 export default foodRouter;
