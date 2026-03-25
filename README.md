@@ -16,7 +16,7 @@ A responsive and modern food delivery web application built using React and Tail
 - Secure online payments using **Stripe**
 - Mobile-first responsive UI for all devices
 
-### 🛠️ Admin Panel
+### 🛠️ Admin Panel -> https://food-delivery-admin-irli.onrender.com/
 - Secure login for admins
 - Add, update, and delete food items
 - Upload food images
